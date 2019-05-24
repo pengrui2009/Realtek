@@ -70,7 +70,7 @@ If that does not help, I have no idea what is wrong.
 # last
 disable ideapad_laptop
 run the following cmd:
-`
+
 echo "blacklist ideapad_laptop" | sudo tee /etc/modprobe.d/disableideapad.conf
-`
+
 
