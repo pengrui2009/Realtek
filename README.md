@@ -68,8 +68,9 @@ The signals are now a lot stronger, you are done. If not, repeat command set 2 w
 If that does not help, I have no idea what is wrong.
 
 # last
+disable ideapad_laptop
 run the following cmd:
-```
+`
 echo "blacklist ideapad_laptop" | sudo tee /etc/modprobe.d/disableideapad.conf
-```
+`
 
