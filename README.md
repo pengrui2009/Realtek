@@ -69,7 +69,7 @@ If that does not help, I have no idea what is wrong.
 
 # last
 run the following cmd:
-```bash
+```
 echo "blacklist ideapad_laptop" | sudo tee /etc/modprobe.d/disableideapad.conf
 ```
 
