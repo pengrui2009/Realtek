@@ -67,4 +67,9 @@ To be safe, do a power off. After the system come back up, rerun the set 1 comam
 The signals are now a lot stronger, you are done. If not, repeat command set 2 with "ant_sel=1".
 If that does not help, I have no idea what is wrong.
 
+# last
+run the following cmd:
+```bash
+echo "blacklist ideapad_laptop" | sudo tee /etc/modprobe.d/disableideapad.conf
+```
 
